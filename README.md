@@ -14,11 +14,7 @@ comment code after the fact, when I'm not racing the clock.
 
 ## Stats
 
-Number of answers correct on first submission: -/- (--%)
-
-Highest finish for first half: -
-
-Highest finish for second half: -
+Number of answers correct on first submission: 0/2 (0%)
 
 ## Usage
 

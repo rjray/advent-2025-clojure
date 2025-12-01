@@ -28,7 +28,9 @@ lein run -b DAY PART
 
 ## [day01.clj](day01.clj)
 
-Day 1 (--/--).
+Day 1 (58:46).
+
+Off to a great start. Got both halves wrong on the first tries.
 
 ## [day02.clj](day02.clj)
 
