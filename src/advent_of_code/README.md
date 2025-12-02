@@ -34,96 +34,106 @@ Off to a great start. Got both halves wrong on the first tries.
 
 ## [day02.clj](day02.clj)
 
-Day 2 (--/--).
+Day 2 (1:56:35, actual time ~28:00 due to late start).
+
+This is more like it. I owe the fast solves more to Perl than to Clojure, as
+regular expressions be the rule of the day.
+
+Part 1 was to identify any of the ID values that were made entirely of a
+sequence of one or more digits followed by the same sequence. For this, the
+pattern `^(\d+)(\1)$` applied to a stringified version of the ID worked.
+
+For part 2 it was extended to be any number of repeats of the sequence (two or
+more). For that, the pattern was `^(\d+)(?:\1)+$`.
 
 ## [day03.clj](day03.clj)
 
-Day 3 (--/--).
+Day 3 ().
 
 ## [day04.clj](day04.clj)
 
-Day 4 (--/--).
+Day 4 ().
 
 ## [day05.clj](day05.clj)
 
-Day 5 (--/--).
+Day 5 ().
 
 ## [day06.clj](day06.clj)
 
-Day 6 (--/--).
+Day 6 ().
 
 ## [day07.clj](day07.clj)
 
-Day 7 (--/--).
+Day 7 ().
 
 ## [day08.clj](day08.clj)
 
-Day 8 (--/--).
+Day 8 ().
 
 ## [day09.clj](day09.clj)
 
-Day 9 (--/--).
+Day 9 ().
 
 ## [day10.clj](day10.clj)
 
-Day 10 (--/--).
+Day 10 ().
 
 ## [day11.clj](day11.clj)
 
-Day 11 (--/--).
+Day 11 ().
 
 ## [day12.clj](day12.clj)
 
-Day 12 (--/--).
+Day 12 ().
 
 ## [day13.clj](day13.clj)
 
-Day 13 (--/--).
+Day 13 ().
 
 ## [day14.clj](day14.clj)
 
-Day 14 (--/--).
+Day 14 ().
 
 ## [day15.clj](day15.clj)
 
-Day 15 (--/--).
+Day 15 ().
 
 ## [day16.clj](day16.clj)
 
-Day 16 (--/--).
+Day 16 ().
 
 ## [day17.clj](day17.clj)
 
-Day 17 (--/--).
+Day 17 ().
 
 ## [day18.clj](day18.clj)
 
-Day 18 (--/--).
+Day 18 ().
 
 ## [day19.clj](day19.clj)
 
-Day 19 (--/--).
+Day 19 ().
 
 ## [day20.clj](day20.clj)
 
-Day 20 (--/--).
+Day 20 ().
 
 ## [day21.clj](day21.clj)
 
-Day 21 (--/--).
+Day 21 ().
 
 ## [day22.clj](day22.clj)
 
-Day 22 (--/--).
+Day 22 ().
 
 ## [day23.clj](day23.clj)
 
-Day 23 (--/--).
+Day 23 ().
 
 ## [day24.clj](day24.clj)
 
-Day 24 (--/--).
+Day 24 ().
 
 ## [day25.clj](day25.clj)
 
-Day 25 (--/--).
+Day 25 ().
