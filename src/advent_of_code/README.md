@@ -48,7 +48,23 @@ more). For that, the pattern was `^(\d+)(?:\1)+$`.
 
 ## [day03.clj](day03.clj)
 
-Day 3 ().
+Day 3 (45:47 for part 1, unknown for part 2).
+
+This escalated quickly. Part 1 was solvable with a semi-brute force approach,
+in which for each battery bank I picked the first highest number that wasn't in
+the last slot, then from its position forward picked the highest number for the
+second battery.
+
+Part 2 upped this to 12 batteries from each bank. I couldn't think of a good
+approach other than to reach for the combinatorics module, and I was pretty
+sure that would be too large of a search-space. I looked at some other code on
+reddit, and lit up when I saw someone had used dynamic programming (in Python
+in this case). I adapted it to Clojure with a slightly more-functional feel. At
+first I wasn't getting the right answers, but it turned out that the value I
+was using for "negative infinity" was too high.
+
+I need to get better at dynamic programming, both in writing it and in knowning
+when to reach for it in the toolbox.
 
 ## [day04.clj](day04.clj)
 
