@@ -68,7 +68,25 @@ when to reach for it in the toolbox.
 
 ## [day04.clj](day04.clj)
 
-Day 4 ().
+Day 4 (1:35:40, but started 1:05:00 late).
+
+Solved part 1 in 16:39 and part 2 14 minutes later (with time taken for getting
+a drink and a snack).
+
+This is a style of puzzle that Clojure is really well-suited for: traversing a
+field/matrix and looking around. Part 1 was just to count how many "paper roll"
+squares could be accessible based on the puzzle rules. It took too long to get
+part 1 to work on the test data because I was going too fast and made silly
+mistakes.
+
+Part 2 was to actually *remove* the reachable rolls, iterate this process until
+no more were accessible, and return the count of rolls removed. It only took 14
+minutes because I got up to get more to drink, clear dishes, and serve a snack
+to myself and my wife. Because Clojure doesn't change data when you update it,
+it is very easy to create a "new" field with the accessible elements removed
+while maintaining the original field. Couple this with the ability to directly
+compare two such structures for equality, and the loop is pretty short and
+readable.
 
 ## [day05.clj](day05.clj)
 
