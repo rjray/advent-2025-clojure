@@ -1,6 +1,6 @@
 # Breakdown of Files
 
-Jump to day: [1](#day01clj)&nbsp;|&nbsp;[2](#day02clj)&nbsp;|&nbsp;[3](#day03clj)&nbsp;|&nbsp;[4](#day04clj)&nbsp;|&nbsp;[5](#day05clj)&nbsp;|&nbsp;[6](#day06clj)&nbsp;|&nbsp;[7](#day07clj)&nbsp;|&nbsp;[8](#day08clj)&nbsp;|&nbsp;[9](#day09clj)&nbsp;|&nbsp;[10](#day10clj)&nbsp;|&nbsp;[11](#day11clj)&nbsp;|&nbsp;[12](#day12clj)&nbsp;|&nbsp;[13](#day13clj)&nbsp;|&nbsp;[14](#day14clj)&nbsp;|&nbsp;[15](#day15clj)&nbsp;|&nbsp;[16](#day16clj)&nbsp;|&nbsp;[17](#day17clj)&nbsp;|&nbsp;[18](#day18clj)&nbsp;|&nbsp;[19](#day19clj)&nbsp;|&nbsp;[20](#day20clj)&nbsp;|&nbsp;[21](#day21clj)&nbsp;|&nbsp;[22](#day22clj)&nbsp;|&nbsp;[23](#day23clj)&nbsp;|&nbsp;[24](#day24clj)&nbsp;|&nbsp;[25](#day25clj)
+Jump to day: [1](#day01clj)&nbsp;|&nbsp;[2](#day02clj)&nbsp;|&nbsp;[3](#day03clj)&nbsp;|&nbsp;[4](#day04clj)&nbsp;|&nbsp;[5](#day05clj)&nbsp;|&nbsp;[6](#day06clj)&nbsp;|&nbsp;[7](#day07clj)&nbsp;|&nbsp;[8](#day08clj)&nbsp;|&nbsp;[9](#day09clj)&nbsp;|&nbsp;[10](#day10clj)&nbsp;|&nbsp;[11](#day11clj)&nbsp;|&nbsp;[12](#day12clj)
 
 Here is a breakdown of the various files in this directory. Files with names of
 the form `dayNN.clj` represent the code actually used to solve the problems
@@ -119,55 +119,3 @@ Day 11 ().
 ## [day12.clj](day12.clj)
 
 Day 12 ().
-
-## [day13.clj](day13.clj)
-
-Day 13 ().
-
-## [day14.clj](day14.clj)
-
-Day 14 ().
-
-## [day15.clj](day15.clj)
-
-Day 15 ().
-
-## [day16.clj](day16.clj)
-
-Day 16 ().
-
-## [day17.clj](day17.clj)
-
-Day 17 ().
-
-## [day18.clj](day18.clj)
-
-Day 18 ().
-
-## [day19.clj](day19.clj)
-
-Day 19 ().
-
-## [day20.clj](day20.clj)
-
-Day 20 ().
-
-## [day21.clj](day21.clj)
-
-Day 21 ().
-
-## [day22.clj](day22.clj)
-
-Day 22 ().
-
-## [day23.clj](day23.clj)
-
-Day 23 ().
-
-## [day24.clj](day24.clj)
-
-Day 24 ().
-
-## [day25.clj](day25.clj)
-
-Day 25 ().
