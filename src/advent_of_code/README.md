@@ -90,7 +90,25 @@ readable.
 
 ## [day05.clj](day05.clj)
 
-Day 5 ().
+Day 5 (12:01:12, but started ~2:00:00 late).
+
+Solved part 1 in about 19:33, slowed down only by the fact that the numbers
+(and hence the ranges) were much too large for my usual approach of adding
+everything to a `set` structure and testing against it. Part 1 is essentially
+O(_mn_), as I am looping over all ranges for each ingredient in the list. There
+is likely a better way for that.
+
+Part 2 gave me a wrong answer the first try (error no. 3 for this year). I
+realized my algorithm for merging the overlapping ranges was wrong, but by this
+time it was nearly midnight in my time-zone so I decided to sleep on it. This
+morning, I did some searching for an algorithm, and also looked at the
+[part 2 solution from Norman Richards](https://gitlab.com/maximoburrito/advent2025/-/blob/main/src/day05/main.clj).
+While I liked the clarity of the code, it was looping over the set of ranges in
+a nested fashion, making it O(_n<sup>2</sup>_). I instead took an algorithm
+from
+[AlgoCademy](https://algocademy.com/blog/merge-intervals-a-comprehensive-guide-to-solving-this-classic-algorithm-problem/)
+that does a single sorting of the intervals followed by a single-pass over the
+list. This got me the correct answer, in really short order no less.
 
 ## [day06.clj](day06.clj)
 
