@@ -112,7 +112,26 @@ list. This got me the correct answer, in really short order no less.
 
 ## [day06.clj](day06.clj)
 
-Day 6 ().
+Day 6 (2:19:52, started ~1:20:00 late).
+
+Solved part 1 in about 32 minutes, much of which was debugging non-bugs caused
+by fatigue and headache from attending a hockey game. The approach was to
+create a matrix of the numbers and operands (operands being the last row). This
+yielded rows in which the operand (now converted to the corresponding function)
+was the first element and the numbers the rest of the row. Operands were
+applied to the numbers, and the results summed.
+
+Part 2 was trickier, of course. It took about 28 minutes in all, thanks to not
+making any more non-bug errors. Here, the entire text was converted into a
+matrix. That was then rotated once counter-clockwise (actually 3 times
+clockwise). Each row was converted back to a string, and each string was one of
+three things: A stand-alone number, a number followed by an operand, or a
+sequence of only spaces. This was fed into a `loop` that examined each
+non-space string for a number and a possible operand. Numbers were gathered,
+and when an operand was found it was applied to the gathered numbers, the
+result added to a second accumulator, and the loop would iterate with an empty
+group of numbers and the newly-extended accumulator. At the end, the contents
+of the accumulator were summed.
 
 ## [day07.clj](day07.clj)
 
