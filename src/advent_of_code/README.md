@@ -135,7 +135,17 @@ of the accumulator were summed.
 
 ## [day07.clj](day07.clj)
 
-Day 7 ().
+Day 7 (1:04:36, started ~15:00 late).
+
+Part 1 took 25:22 or so, much of which was spent trying to understand how to
+get 21 as an answer out of the test data. I coded what I *thought* would be
+the process, and luckily I was right. But it was at least 75% guessing at that
+point.
+
+Part 2 was to count the number of "timelines" that the particle creates as it
+goes through all the splitters. This was actually easier to envision, but a
+silly mistake took longer to debug than it should have. It took an additional
+24 minutes or so to finish part 2.
 
 ## [day08.clj](day08.clj)
 
