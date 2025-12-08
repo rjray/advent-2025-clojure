@@ -149,7 +149,13 @@ silly mistake took longer to debug than it should have. It took an additional
 
 ## [day08.clj](day08.clj)
 
-Day 8 ().
+Day 8 (1:14:31, started ~15:00 late).
+
+Part 1 took nearly 50 minutes due to trying to find a bug but looking in all
+the wrong places. Once the one bug was found, it ran fine.
+
+Part 2 *looked* like it would be scary, but in the end it ran about 0.2s
+FASTER than part 1 had.
 
 ## [day09.clj](day09.clj)
 

@@ -14,7 +14,7 @@ comment code after the fact, when I'm not racing the clock.
 
 ## Stats
 
-Number of answers correct on first submission: 11/14 (78.57%)
+Number of answers correct on first submission: 13/16 (81.25%)
 
 ## Usage
 
