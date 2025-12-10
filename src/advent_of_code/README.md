@@ -175,7 +175,23 @@ approaches consistently failed.
 
 ## [day10.clj](day10.clj)
 
-Day 10 ().
+Day 10 (17:10:34).
+
+Another day where I had to sleep on part 2, and it didn't really help at all
+this time.
+
+Part 1 was straightforward. Most people seemed to have chose BFS, I just
+iterated over increasing numbers of button-press combinations. It probably
+would have gone faster with BFS.
+
+Part 2, well, I wouldn't have gotten part 2 at all unless I had seen another
+Clojurist using the `fastmath` library to solve it as a series of linear
+equations. I read the docs, studied his code
+([here](https://github.com/genmeblog/advent-of-code/blob/master/src/advent_of_code_2025/day10.clj)),
+and still made mistakes. In the end, my code looks mostly like his, just
+because I was getting frustrated and didn't want this hanging over my head
+when day 11 unlocks tonight. I do plan to examine/investigate the `fastmath`
+package in greater depth.
 
 ## [day11.clj](day11.clj)
 
