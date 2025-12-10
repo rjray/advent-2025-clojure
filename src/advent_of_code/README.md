@@ -159,7 +159,19 @@ FASTER than part 1 had.
 
 ## [day09.clj](day09.clj)
 
-Day 9 ().
+Day 9 (19:33:18, started about 1:22:00 late, slept on part 2).
+
+Where part 1 was trivial, part 2 stymied a LOT of players. For part 1, it was
+a matter of getting all combinations of the red tiles and computing area for
+each proscribed rectangle. Taking the largest of the areas gave the answer.
+
+Part 2 involved finding the area of the largest rectangle for which all points
+were within the polygon described by the sequence of points. While there are
+algorithms for this, all but my last attempt failed to get the right answer. I
+don't know if the fact that every edge-slope was either 0 or undefined
+(division by zero). I finally found a succint (if slow) approach in Python that
+I was able to convert to Clojure. But I'm dying to know why more "traditional"
+approaches consistently failed.
 
 ## [day10.clj](day10.clj)
 
