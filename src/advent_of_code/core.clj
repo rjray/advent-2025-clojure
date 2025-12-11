@@ -56,7 +56,7 @@
                              (if bis " bis" "") day part)))]
     (cond
       (or (< day 1)
-          (> day 25)) (.println *err* "Day out of range.")
+          (> day 12)) (.println *err* "Day out of range.")
       (or (< part 1)
           (> part 2)) (.println *err* "Part out of range.")
       (string? sub)   (.println *err* sub)
