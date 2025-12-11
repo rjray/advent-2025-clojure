@@ -195,7 +195,33 @@ package in greater depth.
 
 ## [day11.clj](day11.clj)
 
-Day 11 ().
+Day 11 (12:44:51).
+
+Finished part 1 in just over 15 minutes (accounting for having started 5
+minutes late). Part 2 *looked* like it would be a simple extension of part 1,
+based on how I'd solved part 1. But (of course) it wasn't. I ended up leaving
+part 2 running while I went to sleep, but even 8 hours later it still hadn't
+completed.
+
+I initially solved part 1 with a simple BFS, using the `PriorityQueue` that
+comes with Clojure (a favorite of mine for these sorts of problems). I got it
+right the first time, with a run-time of about 40ms.
+
+Part 2 would never have worked with that-- I even had trouble running the test
+data for part 2 with the modified code. So, I went looking for a better
+approach. I found an algorithm that used memoization and recursion, and adapted
+it to Clojure. It appeared fine, and got the test-data answer correct. In fact,
+I adapted part 1 to use this code and dropped the run-time to 8ms! But it ran
+forever trying to do part 2. I decided to sleep on it, and let it run while
+sleeping. A little over 8 hours later, it still hadn't solved part 2.
+
+Getting help from [narimiran](https://narimiran.github.io/aoc2025/) on the
+Clojure slack instance, I learned that I *hadn't* actually really memoized the
+core recursive function. It was running the problem without any memoization
+hits. I rewrote the memoization part in a different structure (getting a
+warning from `clj-kondo` in the process that I can't clear). But it worked. I
+got the answer for part 2 in 17ms, and re-ran part 1 as well. It went down to
+5ms, which is essentially and order of magnitude reduction in run-time.
 
 ## [day12.clj](day12.clj)
 
