@@ -225,4 +225,20 @@ got the answer for part 2 in 17ms, and re-ran part 1 as well. It went down to
 
 ## [day12.clj](day12.clj)
 
-Day 12 ().
+Day 12 (52:24).
+
+One of the few days I was able to start precisely when the puzzle unlocked. As
+is the tradition, there was only a part 1 to it.
+
+Part 1 looked pretty scary at first; trying to pack spaces with arbitrary
+counts of arbitrary shapes. I knew right off the bat that iterating over the
+shapes and counts was going to be pointless. I did some Googling, but the best
+I could come up with was a kinda-fuzzy approach that used the number of "set
+pixels" in each shape and the total count of shapes to be placed. I wasn't
+really sure it would work, to be honest. And it actually *didn't* work on the
+test data. But I had paused an episode of
+[Plur1bus](https://www.imdb.com/title/tt22202452/) to work on this and I was
+willing to take a chance. (Plus, I'd already gotten 5 wrong answers so one more
+wasn't a big deal.) The program worked, and the answer it gave was correct.
+
+Here ends Advent of Code 2025.
