@@ -223,6 +223,20 @@ warning from `clj-kondo` in the process that I can't clear). But it worked. I
 got the answer for part 2 in 17ms, and re-ran part 1 as well. It went down to
 5ms, which is essentially and order of magnitude reduction in run-time.
 
+## [day11bis.clj](day11bis.clj)
+
+Based on looking at narimiran's solution after the fact, I decided to try his
+approach to part 2. I also got rid of the `clj-kondo` warning while I was at
+it.
+
+The change was this: rather than computing from `svr` to `out` directly,
+compute between `fft` to `dac`, and `dac` to `fft`. Because the graph is
+acyclic, one of those values will be zero. For the one that *isn't* zero,
+you can then compute from `svr` to the first end and from the second end to
+`out`. Once done, you can multiply together the three segments. This reduces
+the search-space overall and gave a performance boost of about 19% when
+compared to the orignal part 2 solution.
+
 ## [day12.clj](day12.clj)
 
 Day 12 (52:24).
